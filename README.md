@@ -1,174 +1,198 @@
-<p align="center">
-  <img width="320" src="https://wpimg.wallstcn.com/ecc53a42-d79b-42e2-8852-5126b810a4c8.svg">
-</p>
+## 环境依赖
+node.js
+vue 
+npm 这也是必须滴
 
-<p align="center">
-  <a href="https://github.com/vuejs/vue">
-    <img src="https://img.shields.io/badge/vue-2.5.10-brightgreen.svg" alt="vue">
-  </a>
-  <a href="https://github.com/ElemeFE/element">
-    <img src="https://img.shields.io/badge/element--ui-2.3.2-brightgreen.svg" alt="element-ui">
-  </a>
-  <a href="https://travis-ci.org/PanJiaChen/vue-element-admin" rel="nofollow">
-    <img src="https://travis-ci.org/PanJiaChen/vue-element-admin.svg?branch=master" alt="Build Status">
-  </a>
-  <a href="https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
-  </a>
-  <a href="https://github.com/PanJiaChen/vue-element-admin/releases">
-    <img src="https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg" alt="GitHub release">
-  </a>
-</p>
+总之 vue全家桶各种就往上怼吧
 
-English | [简体中文](./README.zh-CN.md)
+UI组件
 
-## Introduction
+主要是element组件
 
-[vue-element-admin](http://panjiachen.github.io/vue-element-admin) is a front-end management background integration solution. It based on [vue](https://github.com/vuejs/vue) and use the UI Toolkit [element](https://github.com/ElemeFE/element).
+后端代码主要PHP（PHP是最好的语言！！！！）
 
-It is a magical vue admin based on the newest development stack of vue, built-in i18n solution, typical templates for enterprise applications, lots of awesome features. It helps you build a large complex Single-Page Applications. I believe whatever your needs are, this project will help you.
+（虽然我后端主要用的Python django flask,但是公司的Boss，同样也是技术源泉不让我用，也不让我写后台，还强迫要给我传授PHP大法）
 
-- [Preview](http://panjiachen.github.io/vue-element-admin)
+## 项目开始
+git clone https://github.com/dadidid/Antarctictourism.git
+## 开始
+install dependency
 
-- [Documentation](https://panjiachen.github.io/vue-element-admin-site/)
-
-- [Gitter](https://gitter.im/vue-element-admin/discuss)
-
-- [Wiki](https://github.com/PanJiaChen/vue-element-admin/wiki)
-
-- [Donate](https://panjiachen.github.io/vue-element-admin-site/donate/)
-
-**This project is positioned as a background integration solution and is not suitable for secondary development as a basic template.**
-
- - Base template recommends using: [vueAdmin-template](https://github.com/PanJiaChen/vueAdmin-template)  
- - Desktop: [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
-
-## Preparation
-
-You need to install [node](http://nodejs.org/) and [git](https://git-scm.com/) locally. The project is based on [ES2015+](http://es6.ruanyifeng.com/), [vue](https://cn.vuejs.org/index.html), [vuex](https://vuex.vuejs.org/zh-cn/), [vue-router](https://router.vuejs.org/zh-cn/), [axios](https://github.com/axios/axios) and [element-ui](https://github.com/ElemeFE/element), all request data is simulated using [Mock.js](https://github.com/nuysoft/Mock).
- Understanding and learning this knowledge in advance will greatly help the use of this project.
-
- **This project does not support low version browsers (e.g. IE). Please add polyfill yourself if you need them.**
-
- **Note: This project uses element-ui@2.3.0+ version, so the minimum compatible vue@2.5.0+**
-
- <p align="center">
-  <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png">
-</p>
-
-## Features
-```
-- Login / Logout
-
-- Permission Authentication
-  - Page permission
-  - Directive permission
-  - Two-step login
-
-- Multi-environment build
-  - dev sit stage prod
-
-- Global Features
-  - I18n
-  - Multiple dynamic themes
-  - Dynamic sidebar (supports multi-level routing)
-  - Dynamic breadcrumb
-  - Tags-view(Tab page Support right-click operation)
-  - Svg Sprite
-  - Mock data
-  - Screenfull
-  - Responsive Sidebar
-
-- Editor
-  - Rich Text Editor
-  - Markdown Editor
-  - JSON Editor
-
-- Excel
-  - Export Excel
-  - Export zip
-  - Upload Excel
-  - Visualization Excel
-
-- Table
-  - Dynamic Table
-  - Drag And Drop Table
-  - Tree Table
-  - Inline Edit Table
-
-- Error Page
-  - 401
-  - 404
-
-- Components
-  - Avatar Upload
-  - Back To Top
-  - Drag Dialog
-  - Drag Kanban
-  - Drag List
-  - SplitPane
-  - Dropzone
-  - Sticky
-  - CountTo
-
-- Advanced Example
-- Error Log
-- Dashboard
-- Guide Page
-- Echarts
-- Clipboard
-- Markdown to html
-```
-
-## Getting started
-
-```bash
-# clone the project
-git clone https://github.com/PanJiaChen/vue-element-admin.git
-
-# install dependency
 npm install
 
-# develop
-npm run dev
-```
+最好配置下镜像 cnpm 更快更畅通
 
-This will automatically open http://localhost:9527.
+## 运行
 
-## Build
-```bash
-# build for test environment
-npm run build:sit
+npm install dev
 
-# build for production environment
-npm run build:prod
-```
+开箱即用式框架
 
-## Advanced
-```bash
-# --report to build with bundle size analytics
-npm run build:prod --report
+主要还是借助了vue-template-admin
 
-# --preview to start a server in local to preview
-npm run build:prod --preview
+地址：https://github.com/PanJiaChen/vue-admin-template.git
 
-# lint code
-npm run lint
+主要项目文件及其文件夹（配置文件可以看vue-template-admin的描述详情）
 
-# auto fix
-npm run lint -- --fix
-```
+src/api 主要是放接口及其登陆js相关文件
 
-Refer to [Documentation](https://panjiachen.github.io/vue-element-admin-site/guide/essentials/deploy.html) for more information
+src/utils 主要放一些功能性js(个人认为最重要的是fetch文件，这里起初以为真的用的是fetch替代了ajax,但是并不是，详情后续再讲)
 
-## Changelog
-Detailed changes for each release are documented in the [release notes](https://github.com/PanJiaChen/vue-element-admin/releases).
+src/router 主要放了路由相关的文件，就不描述了，和vue router基本一致
 
-## Online Demo
-[Preview](http://panjiachen.github.io/vue-element-admin)
-                            
+src/mock 主要放了模拟数据接口，本项目没有用到，过！！
 
-## License
+src/store 主要放了公共状态管理组件，依然没用，过过！
+
+src/view   大头戏 主要是存放了vue文件,项目前端的立根之本
+
+src/login 登陆
+
+等等等， 懒   就不细细说了
+
+其余项目配置详情可见 https://github.com/PanJiaChen/vue-admin-template.git描述
+
+项目截图
+
+![1eaae3b0318929480016c7aad1532f8](C:\Users\chang\Desktop\项目截图\1eaae3b0318929480016c7aad1532f8.jpg)
+
+​                 
+
+​           
+
+## License![3fccdffa21eb6924febc8c7fce29e73](C:\Users\chang\Desktop\项目截图\3fccdffa21eb6924febc8c7fce29e73.jpg)
+
+
+
+
+
+![9b6954fae58763eb6769f32ee8249cb](C:\Users\chang\Desktop\项目截图\9b6954fae58763eb6769f32ee8249cb.jpg)
+
+
+
+![27a9f344406cce8ea7502bd789267af](C:\Users\chang\Desktop\项目截图\27a9f344406cce8ea7502bd789267af.jpg)
+
+
+
+![31f10cb42f2a7a45f197786a466c2d8](C:\Users\chang\Desktop\项目截图\31f10cb42f2a7a45f197786a466c2d8.jpg)
+
+![54d2f518c7f46cb79fd47f8966bdb5e](C:\Users\chang\Desktop\项目截图\54d2f518c7f46cb79fd47f8966bdb5e.jpg)
+
+![119dc80b9b5a9815036b40fd42ec6b7](C:\Users\chang\Desktop\项目截图\119dc80b9b5a9815036b40fd42ec6b7.jpg)
+
+![ccf3daf041c6060112722c6e9e85bc6](C:\Users\chang\Desktop\项目截图\ccf3daf041c6060112722c6e9e85bc6.jpg)
+
+![e500b1e8c11fcbcc58255362fc22194](C:\Users\chang\Desktop\项目截图\e500b1e8c11fcbcc58255362fc22194.jpg)
+
+项目主要分了五大模块
+
+游客管理
+
+1) 游客新增
+
+l 添加游客基本信息
+
+l 添加护照和签证信息
+
+l 添加游客联系方式
+
+l 添加游客后续意愿
+
+l 添加游客基本信息
+
+2) 游客列表
+
+l 显示出某个游客的主要信息
+
+l 以扩展的方式显示游客的其他信息
+
+l 根据信息进行搜索
+
+l 删除以及修改功能
+
+行程管理
+
+1) 行程新增
+
+l 官方行程填写
+
+l 邮轮信息填写
+
+l 日期信息填写
+
+l 线路信息填写
+
+2) 行程列表
+
+l 显示行程的主要信息
+
+l 以扩展的方式显示行程的其他信息
+
+l 根据若干信息进行搜索
+
+订单管理
+
+1) 订单新增
+
+l 查找客户信息
+
+l 查找行程信息
+
+l 订单详情
+
+l 流程控制-订金
+
+l 流程控制-尾款
+
+l 流程控制-附加
+
+l 流程控制-后续
+
+2) 行程列表
+
+l 显示订单的主要信息
+
+l 以扩展的方式显示订单的其他信息
+
+l 根据若干信息进行搜索
+
+公司与邮轮管理
+
+1) 公司/邮轮新增
+
+l 公司/邮轮新增
+
+2) 公司与邮轮列表
+
+l 显示订单的公司/邮轮信息
+
+l 以扩展的方式显示订单的其他信息
+
+l 根据若干信息进行搜索
+
+项目完成后的收获
+
+本项目就是一个单纯前端项目，只是借助于别人的框架。对于我自己而言，这也是真的接触到的上线级别的项目，相对于技术的提升更多的是与项目相关的使用各方面的，以及业务逻辑上的提升还有代码思维的转换。
+
+之前从来没有使用过Postman及其Fidder工具，这两款工具对于前端开发效率的提升还是挺有帮助的
+
+![5268e9670f58daa2566156fe43808a0](C:\Users\chang\Desktop\5268e9670f58daa2566156fe43808a0.png)
+
+在项目实际开发中，我还是觉得基础非常的重要，前端三驾马车，CSS,HTML,JavaScript真的是立根之本，准备实习回去后再把CSS权威指南和JavaScript再过一遍。
+
+项目难点：
+
+其实整个项目也没有什么难点，可能逻辑性有点绕。
+
+
+
+
+
+
+
+
+
+
 
 [MIT](https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE)
 
