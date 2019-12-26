@@ -54,13 +54,13 @@ src/login 登陆
 
 项目截图
 
-![1eaae3b0318929480016c7aad1532f8](C:\Users\chang\Desktop\项目截图\1eaae3b0318929480016c7aad1532f8.jpg)
+![1eaae3b0318929480016c7aad1532f8](https://github.com/dadidid/Antarctictourism/blob/master/static/projectimg/1eaae3b0318929480016c7aad1532f8.jpg)
 
 ​                 
 
 ​           
 
-## License![3fccdffa21eb6924febc8c7fce29e73](C:\Users\chang\Desktop\项目截图\3fccdffa21eb6924febc8c7fce29e73.jpg)
+## License![https://github.com/dadidid/Antarctictourism/blob/master/static/projectimg/3fccdffa21eb6924febc8c7fce29e73.jpg)
 
 
 
